@@ -1,7 +1,10 @@
 :root {
     --dark-green: #064B44;
     --normal-green: #075E54;
+    --light-green:#07D65D;
     --inactive: #4F817B;
+    --grey: #a1a1a1;
+    --background-green:#118A7D;
 }
 
 * {
@@ -14,6 +17,8 @@
 
 /* Top notification area*/
 .top-notification{
+    border-radius: 10px 10px 0px 0px;
+    border-top: 3px solid white;
     padding: 1rem;
     color: white;
     font-size: 2rem;
@@ -96,4 +101,69 @@
 }
 .alot-space-down{
     margin-bottom: 1.6rem;
+}
+
+/* chat area */
+.chat{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3rem;
+    color: var(--grey);
+}
+
+.right-section{
+    margin-left: auto;
+}
+.middle-section > h1{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.chat > img{
+    height: 70px;
+    width: 70px;
+    margin-right: 2rem;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.unseen-texts{
+    color: white;
+    background-color: var(--light-green);
+    padding: 10px 13px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.light-green{
+    color: var(--light-green);
+}
+
+hr{
+    margin: 0px 100px;
+    color: rgb(255, 255, 255);
+    background-color: white;
+}
+
+/* put app in phone */
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-green);
+    padding: 0 500px;
+}
+.phone{
+    border-radius: 10px 10px 0px 0px;
+    border: 7px solid white;
+    background-color: white;
+}
+main > h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin: 10px 0;
 }
