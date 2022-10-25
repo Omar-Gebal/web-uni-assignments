@@ -94,7 +94,7 @@
 }
 
 #last-selection-item{
-    margin-right: 10rem;
+    margin-right: 5rem;
 }
 .space-down{
     margin-bottom: 1rem;
@@ -147,6 +147,10 @@ hr{
     margin: 0px 100px;
     color: rgb(255, 255, 255);
     background-color: white;
+}
+
+.seen{
+    width: 20px;
 }
 
 /* put app in phone */
