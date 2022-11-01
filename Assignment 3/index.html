@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="Wrapper">
+            <h1>Sign Up</h1>
+            <div class="form-field">
+                <label for="username">Username</label> <br>
+                <input type="text" name="username" id="username" placeholder="Enter a username">
+                <p id="username-error"></p>
+            </div>
+
+            <div class="form-field">
+                <label for="Email">Email</label> <br>
+                <input type="text" name="email" id="email" placeholder="Enter an email">
+                <p id="email-error"></p>
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+                <p id="password-error"></p>
+            </div>
+
+            <div class="form-field">
+                <label for="username">Confirm Password</label> <br>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Enter password again">
+                <p id="confirm-password-error"></p>
+            </div>
+            <div class="form-field">
+                <input type="submit" value="Sign Up" class="btn" onclick="onClick()">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
