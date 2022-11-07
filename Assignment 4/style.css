@@ -1,0 +1,12 @@
+body {
+    background: url('./bg.jfif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+.padding{
+    padding: 5rem 3rem;
+}
